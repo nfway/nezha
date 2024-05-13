@@ -5,5 +5,5 @@ services:
     volumes:
       - /root/nezha-panel/nezha/data:/dashboard/data 
     ports:
-      - 8008:8008/tcp
+      - 80:8008/tcp
       - 5555:5555/tcp
