@@ -3,7 +3,7 @@ services:
     image: ghcr.io/naiba/nezha-dashboard:latest
     restart: always
     volumes:
-      - /root/nezha-panel/nezha/data:/dashboard/data #/docker-volume/nezha/data为自定义宿主机映射目录
+      - /root/nezha-panel/nezha/data:/dashboard/data 
     ports:
       - 8008:8008/tcp
       - 5555:5555/tcp
